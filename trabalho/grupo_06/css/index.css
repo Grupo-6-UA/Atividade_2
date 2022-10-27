@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap%27);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+
+body 
+{
+    background-image: url("../fundo.png");
+    background-color: #FEF4DE;  
+
+    max-width: 1930px;
+    margin: auto;
+}
+
+h3{
+    
+    color: #663128;
+    font-weight: 900px;
+    font-size: 115px;
+    font-family: poppins;
+    font-weight: bold;
+}
+
+h1{
+   
+    position: relative;
+    bottom: 230px;
+    color: #663128;
+    font-weight: 600px;
+    font-size: 16px;
+    font-family: poppins;
+    line-height: 150%;
+}
+span{
+    position: relative;
+    bottom: 110px;
+    left: -3px;
+    color: #663128;
+    font-weight: 300px;
+    font-size: 50px;
+    font-family: poppins;
+    letter-spacing: 30px;
+}
+/*
+span{
+    justify-content: center;
+    height: 72px;
+    top: 531px;
+    letter-spacing: 40px;
+    color: #663128;
+    font-weight: 900px;
+    font-size: 115px;
+    font-family: poppins;
+    font-style: light;
+}*/
+
+a{
+    background-color: #F3CE5E;
+    padding: 20px 80px;
+    color: #663128;
+    border-radius: 100px 100px 100px 100px;
+    font-family: poppins;
+    font-size: 18px ;
+    position: relative;
+    bottom: 190px;
+    font-weight: bold;
+
+    
+}
+f{
+    position: relative;
+    color: #663128;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    bottom: 190px;
+    right: -40px;
+}
+
+.section-1{
+    position: relative;
+    bottom: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.image1 img
+{
+    position: relative;
+    left: 100px;
+    width: 545px;
+    height: auto;
+    
+}
+
+#center {
+    
+    display: flex;
+    justify-content: center;
+    padding: 300px 10px 10px 10px ;
+    
+}
+
