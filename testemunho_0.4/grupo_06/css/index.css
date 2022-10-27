@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,900;1,100&display=swap');
+
+body {
+    background-image: url("../fundo.png");
+    background-color: #FEF4DE;    
+    
+}
+
+
+h1{
+    position: relative;
+    right: 10%;
+    bottom: 60px;
+    color: #663128;
+    font-weight: 300px;
+    font-size: 15px;
+    font-family: poppins;
+    line-height: 150%;
+}
+
+h2{
+    
+    position: relative;
+    right: 10%;
+    bottom: 170%;
+    color: #000000;
+    font-weight: 300px;
+    font-size: 10px;
+    font-family: poppins;
+    line-height: 150%;
+}
+
+span{
+    justify-content: center;
+    height: 72px;
+    top: 531px;
+    letter-spacing: 40px;
+    color: #663128;
+    font-weight: 900px;
+    font-size: 115px;
+    font-family: poppins;
+    font-style: light;
+}
+
+
+
+#titulo_Sam{
+    display: flex;
+    justify-content: center;
+    color: #663128;
+    font-size: 60px;
+    font-family: Poppins;
+    font-weight: 800px;
+	
+ 
+    
+}
+
+.content_box_Sam{
+    position: relative;
+    left: 15%;
+	bottom: 70px;
+    border-radius: 30px;
+    background: #ffff;
+    padding: 60px;
+    width: 20%;
+    height: 40px;
+    border: solid 1px #663128ed;
+    display: inline-block;
+    margin: 30px;
+    min-width: 10%;
+}
+
+/*#star {
+  margin: 100px;
+  position: relative;
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #000;
+  border-left: 100px solid transparent;
+  transform: rotate(35deg);
+}
+#star:before {
+  border-bottom: 80px solid #000;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -45px;
+  left: -65px;
+  display: block;
+  content: '';
+  transform: rotate(-35deg);
+}
+#star:after {
+  position: absolute;
+  display: block;
+  top: 3px;
+  left: -105px;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #000;
+  border-left: 100px solid transparent;
+  transform: rotate(-70deg);
+  content: '';
+}*/
+
+.content button  {
+    position: relative;
+	bottom: 80px;
+	left: 430px;
+    border-radius: 80px;
+    margin-left: 10%;
+    background: #F3CE5E;
+    padding: 15px;
+    width: 13%;
+    border-color: #7c4032;
+    margin-right: 10px;
+    color:#7c4032;
+    font-family: Poppins;
+	font-weight: 100px;
+}
+
+.content button:hover{
+    border-radius: 80px;
+    background: #7c4032;
+    color: #F3CE5E;
+    padding: 15px;
+    width: 13%;
+    border-color: #7c4032;
+    margin-right: 10px;
+}
