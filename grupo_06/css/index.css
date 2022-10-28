@@ -1,0 +1,268 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap%27);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+
+body 
+{
+    background-image: url("../fundo.png");
+    background-color: #FEF4DE;  
+
+    max-width: 1930px;
+    margin: auto;
+}
+
+#Titulo{
+    
+    position: relative;
+    color: #663128;
+    font-size: 85px;
+    font-family: poppins;
+    top: -175px;
+    left: 165px;
+  
+}
+
+h1{
+   
+    position: relative;
+    bottom: 475px;
+    left: 150px;
+    color: #663128;
+    font-weight: 600px;
+    font-size: 16px;
+    font-family: poppins;
+    line-height: 100%;
+}
+span{
+    position: relative;
+    bottom: 200px;
+    left:10px;
+    color: #663128;
+    font-weight: 350px;
+    font-size: 50px;
+    font-family: poppins;
+    letter-spacing: 15px;
+}
+/*
+span{
+    justify-content: center;
+    height: 72px;
+    top: 531px;
+    letter-spacing: 40px;
+    color: #663128;
+    font-weight: 900px;
+    font-size: 115px;
+    font-family: poppins;
+    font-style: light;
+}*/
+
+a{
+    background-color: #F3CE5E;
+    padding: 20px 80px;
+    color: #663128;
+    border-radius: 100px 100px 100px 100px;
+    font-family: poppins;
+    font-size: 18px ;
+    position: relative;
+    bottom: 450px;
+    left: 155px;
+    font-weight: bold;
+
+    
+}
+
+.separatela {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100%;
+    color:#7C4032;
+    background-color: #7C4032;
+    padding: 310px;
+    bottom: 480px;
+}
+f{
+    position: relative;
+    color: #663128;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    bottom: 450px;
+    left: 200px;
+}
+
+.section-1{
+    display: flex;
+    width: 100vw;
+    height: 60vw;
+}
+
+
+
+.image1 img
+{
+    position: relative;
+    left: 150px;
+    top: -190px;
+    width: 500px;
+    
+}
+
+#center1 {
+    
+    display: flex;
+    justify-content: center;
+    padding: 300px 10px 10px 10px ;
+    
+    
+}
+
+
+
+#augusto {
+    font-weight: 100;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+}
+
+.textpos{
+    display: flex;
+    width: 100vw;
+    height: 60vw;
+}
+
+#servicos{
+position: relative; 
+top: -250px;
+}
+
+
+
+#center {
+    display: flex;
+    justify-content: center;
+    padding: 300px 10px 10px 10px ;
+    border: solid 3px red;
+}
+
+.textpos{
+    position:absolute;
+    left:41.5%;
+    top: 5%;
+}
+
+#imgpos {
+    position:absolute;
+    left:20.5%;
+    top:200px;
+    }
+
+.botaoper {
+
+    background-color: #F3CE5E;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    text-shadow:0px 1px 0px;
+    border: 0px;
+    position: absolute;
+    left: 46%;
+    top: 635px;
+    }
+
+#conteudo{
+    margin: auto;
+    margin-top: 50px;
+    width: 900px;
+    height: 400px;
+
+    }
+    
+#Testemunos_nome{
+    position: relative;
+    right: 10%;
+    bottom: 60px;
+    color: #663128;
+    font-weight: 300px;
+    font-size: 15px;
+    font-family: poppins;
+    line-height: 150%;
+}
+
+#Relato{
+    position: relative;
+    right: 10%;
+    bottom: 170%;
+    color: #000000;
+    font-weight: 300px;
+    font-size: 10px;
+    font-family: poppins;
+    line-height: 150%;
+}
+
+
+#titulo_Sam{
+    display: flex;
+    justify-content: center;
+    color: #663128;
+    font-size: 60px;
+    font-family: Poppins;
+    font-weight: 800px;
+	
+ 
+    
+}
+
+.content_box_Sam{
+    position: relative;
+    left: 15%;
+	bottom: 70px;
+    border-radius: 30px;
+    background: #ffff;
+    padding: 60px;
+    width: 20%;
+    height: 40px;
+    border: solid 1px #663128ed;
+    display: inline-block;
+    margin: 30px;
+    min-width: 10%;
+}
+
+.content button  {
+    position: relative;
+	bottom: 80px;
+	left: 430px;
+    border-radius: 80px;
+    margin-left: 10%;
+    background: #F3CE5E;
+    padding: 15px;
+    width: 13%;
+    border-color: #7c4032;
+    margin-right: 10px;
+    color:#7c4032;
+    font-family: Poppins;
+	font-weight: 100px;
+}
+
+.content button:hover{
+    border-radius: 80px;
+    background: #7c4032;
+    color: #F3CE5E;
+    padding: 15px;
+    width: 13%;
+    border-color: #7c4032;
+    margin-right: 10px;
+}
+
+#Samuel {
+
+    position:relative;
+    bottom: 500px;
+}
+
+
