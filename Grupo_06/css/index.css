@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600&display=swap');
+
+body
+{
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+    margin: 30px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+#logo1
+{
+    position: relative;
+    top: 35px;
+}
+
+
+#linha
+{
+    position: absolute;
+    width: 1360px;
+    height: 0px;
+    left: 0px;
+    top: 131px;
+
+    border: 1px solid #217BF4;
+    color: #217BF4;
+    opacity: 0.1;
+
+
+}
+
+#logonome_gab
+{   
+    margin: 35px;
+    position: relative;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    color: #2B2B39;  
+    right: 160px;
+    bottom: 2px;
+}
+
+header
+{
+    background-color: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+    display: flex;  
+}
+
+a
+{   
+    position: relative;
+    display: inline-flex;
+    color: #656464;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 32px;
+    text-decoration: none;
+    bottom: 5px;
+    right: 72px;
+    
+}
+
+nav
+{
+    display: inline;
+    text-align: justify;
+}
+
+
+h1
+{   
+    display: flex;
+    position: absolute;
+    color: #0A093D;
+    font-size: 56px;
+    font-weight: 700;
+    font-family: 'Inter';
+    justify-content: space-around;
+    align-items: center;
+    height: 132px;
+    width: 515px;
+    top: 211px;
+    left: 135px;
+}
+
+#paragrafo_gab
+{
+    position: absolute;
+    color: #656464;
+    width: 491px;
+    height: 56px;
+    left: 150px;
+    top: 400px;
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+}
+
+
+
+#imagem1_gab
+{
+    position: absolute;
+    width: 585.52px;
+    height: 501.47px;
+    left: 719px;
+    top: 142px;
+}
+
+#home_gab
+{
+    color: #2B2B39;
+    font-weight: 600;
+}
+
+#button
+{
+   display:inline; /* Por padrão a tag "a" vem com INLINE, por esse motivo é feita essa alteração para INLINE-BLOCK para possibilitar a alteração de medidas */
+   position: relative;
+   background-color: #217BF4; /* Cor da caixa */
+   height: 50px; /* Altura da caixa */
+   line-height: 50px; /* Altura do texto, geralmente ele fica com a mesma medida da altura para ficarem alinhados */
+   box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34); /* Sombra da caixa */
+   color: #FFFFFF; /* Cor da letra */
+   font-family: 'Inter', sans-serif; 
+   font-weight: 600; /* Grossura da fonte */
+   font-size: 12px; 
+   padding-left: 44px; /* Aumenta para a ESQUERDA a largura da caixa */
+   padding-right: 43px; /* Aumenta para a DIREITA a largura da caixa */
+   padding-top: 18px; /* Aumenta para BAIXO a largura da caixa */
+   padding-bottom: 18px; /* Aumenta para CIMA a largura da caixa */
+   width: 123px; /* LARGURA DA CAIXA */
+   border-radius: 14px; /* Define o raio da caixa, deixando ela circular */
+   text-align: center; /* Alinha o texto no centro da caixa */
+   left: 400px;
+}
+
+
+#texto1_gab
+{
+    font-family: 'Inter', sans-serif;
+    font-size: 56px;
+    font-weight: 700px;
+    color: #0A093D;
+}
+
+
+#botao1_gab
+{   
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Inter';
+
+    background-color: #217BF4;
+    box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+    border-radius: 14px;
+    width: 162px;
+    height: 62px;
+    left: 135px;
+    top: 510px;
+    position: absolute;
+    border:none;
+}
+
+#botao2_gab
+{
+    position: absolute;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 500;
+    color: #217BF4;
+
+    background-color:#FFFFFF;
+    width: 167px;
+    height: 62px;
+    left: 315px;
+    top: 510px;
+    border-radius: 14px;
+    border: 1px solid #217BF4;
+}
+
+#botao3_gab
+{
+   position: relative;
+   color: #217BF4;
+   font-size: 12px;
+   font-weight: 500;  
+   font-family: 'Inter';  
+   width: 177px;
+  height: 36px;
+  left: 135px; 
+  top: 85px;
+  background: #d3dded;
+  border-radius: 8px;
+  border: none;
+}
+
